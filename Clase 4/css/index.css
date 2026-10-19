@@ -1,0 +1,18 @@
+h1 {
+    color:forestgreen;
+    background-color:bisque;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+    font-weight: 100
+}
+
+.Nombre1 {
+    color: blue;
+}
+
+img {
+    border-radius: 25px;
+    border-style:outset;
+    border-color: aqua;
+}
+
