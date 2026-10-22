@@ -17,6 +17,7 @@ background-color:#FBFBFB;
 
 .a__block {
 display: flex;
+flex-wrap: wrap;
 padding: 16px;
 gap: 48px;
 align-items: center;
@@ -26,13 +27,75 @@ margin: 0 auto;
 }
 
 .a__image {
-    width: 100%;
+    flex: 1 1 300px;
 }
 
 .a__content {
-    width: 100%;
+    flex: 1 1 300px;
     display: flex;
     flex-direction: column;
     padding: 16px;
     gap: 16px;
+}
+
+/* --------  B --------- */
+
+.b {
+padding: 48px 0;
+background-color:#FBFBFB;
+}
+
+.b__block {
+display:flex;
+flex-wrap: wrap;
+padding: 16px;
+gap: 16px;
+max-width: 920px;
+margin: 0 auto;   
+}
+
+.b__card {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 285px;
+    padding: 16px;
+    gap: 16px;
+    background-color: white;
+}
+
+/* --------  C --------- */
+
+.c {
+padding: 48px 0;
+background-color:#FBFBFB;
+}
+
+.c__block {
+display:flex;
+flex-direction: column;
+padding: 16px;
+gap: 32px;
+max-width: 920px;
+margin: 0 auto;   
+}
+
+.c__cards {
+    display: flex;
+    padding: 16px 0;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.c__card {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+    flex: 1 1 300px;
+}
+
+.btn {
+    background-color: black;
+    
+
 }
