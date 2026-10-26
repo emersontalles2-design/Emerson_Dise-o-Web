@@ -9,6 +9,11 @@ img {
     max-width: 100%;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .a {
 padding: 48px 0;
 background-color:#FBFBFB;
@@ -51,7 +56,8 @@ flex-wrap: wrap;
 padding: 16px;
 gap: 16px;
 max-width: 920px;
-margin: 0 auto;   
+margin: 0 auto;
+align-items: start;   
 }
 
 .b__card {
@@ -95,7 +101,156 @@ margin: 0 auto;
 }
 
 .btn {
+    padding: 16px 32px;
     background-color: black;
+    color: white;
+    border-radius: 100px;
+    align-self: start;
+
+}
+
+/* --------  D --------- */
+
+
+.d {
+    padding: 48px 0;
+    background-color:#FBFBFB;
+    }
+
+.d__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+.d__block {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 32px;
+    max-width: 920px;
+    margin: 0 auto;   
+}
+
+.d__cards {
+    display: flex;
+    padding: 16px 0;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.d__card {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+    flex: 1 1 300px;
+}
+
+.d__foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     
+}
+
+.link {
+    font-size: 19px;
+    font-weight: 600;
+
+}
+
+/* E */
+
+
+.e{
+    padding: 48px 0;
+    background-color: #FBFBFB;
+
+}
+
+.e__block {
+    display: flex;
+    flex-direction: column;
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 16px;
+    gap: 48px;
+
+}
+
+.e__content {
+display: flex;
+flex-direction: column;
+padding: 16px;
+gap: 16px;
+}
+
+.e__texts {
+display: flex;
+gap: 16px;
+padding: 16px 0;
+flex-wrap: wrap;
+}
+
+.e__text {
+flex: 1 1 300px;
+
+}
+
+
+/* F */
+
+
+.f{
+    padding: 48px 0;
+    background-color: #FBFBFB;
+
+}
+
+.f__block {
+    display: flex;
+    flex-direction: column;
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 16px;
+    gap: 48px;
+
+}
+
+.f__image {
+    display: flex;
+    max-width: 50%;
+    gap: 16px;
+
+}
+
+.f__content {
+display: flex;
+flex-direction: column;
+padding: 16px;
+gap: 16px;
+}
+
+.f__texts {
+display: flex;
+gap: 16px;
+padding: 16px 0;
+flex-wrap: wrap;
+}
+
+.f__text {
+flex: 1 1 300px;
+
+}
+
+.btn_2 {
+    flex: 1 1 300px;
+    padding: 16px 32px;
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+    align-self: center;
+    text-align: center;
 
 }
