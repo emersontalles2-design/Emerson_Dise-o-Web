@@ -218,11 +218,15 @@ flex: 1 1 300px;
 
 }
 
-.f__image {
+.f__images {
     display: flex;
-    max-width: 50%;
     gap: 16px;
+    flex-wrap: wrap;
 
+}
+
+.f__image {
+    flex: 1 1 300px;
 }
 
 .f__content {
@@ -232,25 +236,123 @@ padding: 16px;
 gap: 16px;
 }
 
-.f__texts {
+.f__row {
 display: flex;
 gap: 16px;
 padding: 16px 0;
-flex-wrap: wrap;
 }
 
-.f__text {
+.f__row-p {
 flex: 1 1 300px;
 
 }
 
-.btn_2 {
-    flex: 1 1 300px;
-    padding: 16px 32px;
-    background-color: black;
-    color: white;
-    border-radius: 100px;
+.btn.f__row-p {
     align-self: center;
     text-align: center;
+
+}
+
+
+
+/* G */
+
+.g {
+    padding: 48px 0;
+    background-color: #FBFBFB;
+
+}
+
+.g__block {
+    display: flex;
+    flex-direction: column;
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 16px;
+    gap: 16px;
+
+}
+
+.g__cards {
+display: flex;
+padding: 16px 0;
+gap: 16px;
+flex-wrap: wrap;
+
+}
+
+.g__card {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    gap: 16px;
+    background-color: #F0F0F0;
+    flex: 1 1 250px;
+
+}
+.g__card-title {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.g__text .ri-arrow-right-up-line {
+display: flex;
+padding: 16px 0;
+
+}
+
+.g__foot {
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+/* H */
+
+.h {
+    padding: 48px 0;
+    background-color: #FBFBFB;
+}
+
+.h__block {
+    display: flex;
+    flex-direction: column;
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 16px;
+    gap: 16px;
+}
+
+.h__content {
+display: flex;
+flex-direction: column;
+
+}
+
+.h__left {
+display: flex;
+flex-direction: column;
+
+}
+
+.h__card {
+    display: flex;
+    flex-direction: column;
+}
+
+.h__right {
+display: flex;
+
+}
+
+.h__card-right {
+display: flex;
+}
+
+.h__card_content {
+display: flex;
+flex-direction: column;
 
 }
