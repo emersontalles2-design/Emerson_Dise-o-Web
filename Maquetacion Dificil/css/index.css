@@ -5,6 +5,7 @@
     --color-grey: #606060;
     --color-light-grey: #f0f0f0;
     --color-bg: #fbfbfb;
+    --color-border: #DEDEDE;
 
     /* space */
     --space-xxs: 8px;
@@ -134,4 +135,126 @@ list-style: none;
 gap: var(--space-lg);
 align-items: center;
 }
+
+/* HERO */
+
+
+.hero {
+    padding: var(--space-xxl) var(--space-md);
+    background-color: var(--color-bg);
+
+}
+
+.hero__block {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xl);
+}
+
+.hero__top {
+    display: flex;
+    gap: var(--space-xl);
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero__content{
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+
+    flex: 1 1 300px;
+}
+
+.hero__buttons{
+    display: flex;
+    gap: var(--space-md);
+    padding: var(--space-xxs) 0 0 0;
+
+}
+
+.hero__image {
+    flex: 1 1 300px;
+}
+
+.hero_foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--space-md) 0 0 0;
+    border-top: 1px solid var(--color-border);
+}
+
+
+/* SERVICIOS */
+
+
+.servicios {
+    padding: var(--space-xl) var(--space-md);
+    background-color: var(--color-bg);
+}
+.servicios__block{
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
+}
+.servicios__head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.servicios__cards{
+    display: flex;
+    gap: var(--space-xs);
+    flex-wrap: wrap;
+    
+}
+.servicios__card{
+    flex: 1 1 250px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-light-grey);
+    padding: var(--space-lg);
+    gap: var(--space-md);
+    
+
+}
+
+.servicios__text {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+
+}
+
+/* PROYECTOS*/
+
+.proyectos{
+    padding: var(--space-xl) var(--space-md);
+    background-color: var(--color-bg);
+}
+.proyectos__block{
+ display: flex;
+ flex-direction: column;
+}
+.proyectos__head{
+
+}
+.proyectos__cards{
+    display: flex;
+    gap: var(--space-xl);
+
+}
+.proyectos__card .link {
+    display: flex;
+    justify-content: space-between;
+}
+
+.proyectos__card{
+ display: flex;
+ flex-direction: column;
+}
+
+
 
