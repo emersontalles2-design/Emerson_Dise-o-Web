@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+    min-height: 5000px;
+}
+
+section {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+
+    background-color: white;
+    margin: 2rem auto;
+    width: fit-content;
+}
+
+div {
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.relative {
+    background-color: darkgray;
+    position: relative;
+    top: 2em;
+}
+
+
+.section-relative {
+    position: relative;
+}
+
+.absolute {
+    background-color: darkgray;
+    position: absolute;
+   
+}
+.fixed {
+    background-color: darkgray;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+
+}
+.section-big {
+    min-height: 200px;
+    position: relative;
+}
+.sticky {
+    background-color: darkgray;
+    position: sticky;
+    top: 1rem;
+}
